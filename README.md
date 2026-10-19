@@ -24,7 +24,7 @@ Le kell tölteni a programhoz szükséges külső könyvtárakat (`opencv-python
 3. A megjelenő ablakban látható a webkamera élő képe.
 4. A programból az **`x`** billentyű megnyomásával tud kilépni.
 
-## Kód magyarázata (Mi mit csinál?)
+## Kód magyarázata
 
 - `import cv2` / `from ultralytics import YOLO`: Könyvtárak betöltése a videókezeléshez és a mesterséges intelligencia modellhez.
 - `model = YOLO('yolov8n.pt')`: A YOLOv8 nano objektumdetektáló modell betöltése (az első futáskor automatikusan letölti).
